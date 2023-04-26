@@ -6,7 +6,7 @@
 // @version      0.1
 // @description  This script hides the email of the user from the view and replaces the email with a placesholder text on the website chat.openai.com
 // @author       Abu Huraira
-// @match        https://chat.openai.com/
+// @match        https://chat.openai.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=openai.com
 // @grant        none
 // ==/UserScript==
