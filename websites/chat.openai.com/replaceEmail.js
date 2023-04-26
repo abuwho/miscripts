@@ -31,7 +31,7 @@ function replaceEmail() {
 (function() {
     'use strict';
 
-    // Wait 5 seconds for the UI to load and then execute the function
-    setTimeout(replaceEmail, 5000);
+    // Run replaceEmail every 5 seconds
+    var intervalId = setInterval(replaceEmail, 5000);
 
 })();
