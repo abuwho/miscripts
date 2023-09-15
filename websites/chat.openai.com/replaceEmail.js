@@ -14,7 +14,7 @@
 
 // Finds the element that includes the email and replaces it with a placeholder text
 function replaceEmail() {
-    var elements = document.getElementsByClassName('grow');
+    var elements = document.getElementsByClassName('font-semibold');
 
     for (var i = 0; i < elements.length; i++) {
         var element = elements[i];
@@ -32,6 +32,6 @@ function replaceEmail() {
     'use strict';
 
     // Run replaceEmail every 5 seconds
-    var intervalId = setInterval(replaceEmail, 5000);
+    var intervalId = setInterval(replaceEmail, 2000);
 
 })();
